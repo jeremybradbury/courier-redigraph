@@ -1,5 +1,5 @@
 # Courier - RediGraph Flavor
-## A logless Secure Messaging Courior made with Redis & GraphQL
+## A logless Secure Messaging Courier made with Redis & GraphQL
 
 ## Using **Redis & GraphQL**
 
@@ -43,7 +43,7 @@ However the examples have full queries and readable patterns.
 
 So the [_"Examples"_](examples/) serve mostly as documentation for now.
 
-### How is it logless?
+### How is it logless? - Privacy First
 
 Well I mean, we have to store the encrypted message for a short time, so Redis seemed like the best place. Only special message, like invite codes, are stored longer than 1 minute. Special messages have a 10-15 minute TTL & are very likely removed before that. Redis can even disable persisitence so that nothing ever leaves server memory.
 
