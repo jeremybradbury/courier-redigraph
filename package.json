@@ -1,0 +1,32 @@
+{
+  "name": "courier-redigraph",
+  "version": "1.0.0",
+  "description": "Real-time secure messaging service using GraphQL and Redis",
+  "main": "index.js",
+  "author": "Jeremy Bradbury",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "prod": "NODE_ENV=production && node index.js",
+    "fix": "yarn prelint && yarn lint",
+    "lint": "eslint --fix --ignore-path .gitignore .",
+    "prelint": "prettier --write **/*.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.21.1",
+    "graphql": "^15.5.1",
+    "graphql-middleware": "^6.0.10",
+    "graphql-rate-limit": "^3.1.0",
+    "graphql-redis-subscriptions": "2.3.1",
+    "graphql-subscriptions": "^1.2.1",
+    "ioredis": "^4.24.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}

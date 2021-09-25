@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "plugin:prettier/recommended"
+    ],
+   "rules": {"prettier/prettier": ["error", {
+        "endOfLine": "auto"
+    }]},
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "env": {
+        "es6": true
+    }
+}
