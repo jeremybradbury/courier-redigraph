@@ -11,6 +11,12 @@ The project is quite lean, as it doesn't need to do much, just a lot of the same
 
 GraphQL has so many great uses, it's really hard to limit them to just React. That's why you're seeing it used here.
 
+## Attribution
+
+Special thanks to [@nowke](https://github.com/nowke/) for writing [an amazing article](https://medium.com/@nowke/building-a-real-time-dashboard-using-react-graphql-subscriptions-and-redis-pubsub-49f5e391a4f9) & [providing some sample code](https://github.com/nowke/realtime-dashboard-demo/), which I gutted & hacked to pieces. 
+
+Still, I used it as a place to start without forking it, so I wanted to give credit where credit is due. I found that [@nowke's realitme dashboard project]((https://github.com/nowke/realtime-dashboard-demo/)) follows great practices and has accurate mocking of test subscription data that relates well for most users (CPU & Memory usage). The article talks through doing the mocking very well. However, you'll find that goodness is entirely missing from the current project.
+
 ## Getting Started
 
 **Start Redis server**
@@ -68,3 +74,4 @@ Simplicity is best way to keep this free & open, yet still both secure & private
 That said, until I publish Android, Windows, Linux, Mac, maybe iOS, clients to provide context, this project is still fairly useless. It can currently only be used to pass non-encrypted messages or learn about GraphQL & Redis, because of it's reliance of doing encryption in clients only. It can also provide a place to start when building on another platform/language.
 
 If you're interested in helping with client development open an issuse and title it like "Help - Mac Client".
+
