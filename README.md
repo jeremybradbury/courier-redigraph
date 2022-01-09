@@ -13,7 +13,7 @@ GraphQL has so many great uses, it's really hard to limit them to just React. Th
 
 ## Attribution
 
-Special thanks to [@nowke](https://github.com/nowke/) for writing [an amazing article](https://medium.com/@nowke/building-a-real-time-dashboard-using-react-graphql-subscriptions-and-redis-pubsub-49f5e391a4f9) & [providing some sample code](https://github.com/nowke/realtime-dashboard-demo/), which I gutted & hacked to pieces. 
+Special thanks to [@nowke](https://github.com/nowke/) for writing [an amazing article](https://medium.com/@nowke/building-a-real-time-dashboard-using-react-graphql-subscriptions-and-redis-pubsub-49f5e391a4f9) & [providing some sample code](https://github.com/nowke/realtime-dashboard-demo/), which I gutted & hacked to pieces, and for which there is no license. Here, in lieu of a license file, and forking the project, I've added my own attribution.
 
 Still, I used it as a place to start without forking it, so I wanted to give credit where credit is due. I found that [@nowke's realitme dashboard project]((https://github.com/nowke/realtime-dashboard-demo/)) follows great practices and has accurate mocking of test subscription data that relates well for most users (CPU & Memory usage). The article talks through doing the mocking very well. However, you'll find that goodness is entirely missing from the current project.
 
